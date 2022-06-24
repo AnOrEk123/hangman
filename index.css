@@ -21,8 +21,10 @@
     text-align: center;
 }
 
-.ok {
-    margin-left: 5px;
+.words {
+    text-decoration: underline;
+    text-align: center;
+    max-height: 10px;
 }
 
 .img1 {
