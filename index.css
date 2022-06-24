@@ -1,5 +1,32 @@
 *,
 *::after,
 *::before {
+    margin: 0;
+    bottom: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.wrapper {
+    width: auto;
+}
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ok {
+    margin-left: 5px;
+}
+
+.img1 {
+    margin-left: 30%;
+    max-height: 150px;
+    max-width: 250px;
 }
