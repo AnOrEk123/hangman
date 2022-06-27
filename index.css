@@ -8,23 +8,33 @@
 }
 
 .wrapper {
-    width: 280px;
+    width: auto;
 }
 
 .h1 {
-    margin-left: 70%;
+    margin-left: 200px;
     font-size: 15px;
 }
 
 .img {
-    margin-left: 50%;
+    margin-left: 150px;
 }
 
-.input {
-    margin-left: 100px;
+.inputDiv {
+    min-height: 20px;
+    margin-left: 200px;
+    margin-top: 19px;
 }
+
+
+/* 
+.word {
+    max-height: 10px;
+    font-size: 10px;
+} */
 
 .button {
     margin-left: 280px;
     margin-top: -19px;
+    display: flex;
 }

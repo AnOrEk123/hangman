@@ -4,16 +4,16 @@ document.getElementById('button').onclick = setLetter
 
 
 let letter = [];
+const mistakes = 1;
+const maxWrongs = 4;
 
 function setLetter() {
-    let letter = document.getElementById('input').value
+    letter = document.getElementById('input').value
 }
 
 function randomWord() {
     let word = words[Math.floor(Math.random() * words.length)]
-        // return word
-    console.log(word)
+    return word
 }
 
-randomWord()
-    // console.log(randomWord);
+console.log(randomWord())
