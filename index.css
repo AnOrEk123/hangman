@@ -17,24 +17,27 @@
 }
 
 .img {
-    margin-left: 150px;
+    max-width: 200px;
+    margin-left: 20%;
 }
 
 .inputDiv {
-    min-height: 20px;
-    margin-left: 200px;
+    max-height: 20px;
     margin-top: 19px;
 }
 
+.input {
+    margin-left: 200px;
+    max-width: 30px;
+}
 
-/* 
 .word {
     max-height: 10px;
     font-size: 10px;
-} */
+    margin-left: 200px;
+}
 
 .button {
-    margin-left: 280px;
+    margin-left: 240px;
     margin-top: -19px;
-    display: flex;
 }
