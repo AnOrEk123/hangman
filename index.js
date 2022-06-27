@@ -1,0 +1,1 @@
+const words = ['dog', 'flower', 'car', 'rocket', 'home', 'brush', 'tea', 'mouse', 'fork', 'plane'];
