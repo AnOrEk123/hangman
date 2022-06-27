@@ -1,10 +1,19 @@
-
 const words = ['dog', 'flower', 'car', 'rocket', 'home', 'brush', 'tea', 'mouse', 'fork', 'plane'];
 
-document.getElementById('button').onclick = letter
+document.getElementById('button').onclick = setLetter
 
-function letter() {
+
+let letter = [];
+
+function setLetter() {
     let letter = document.getElementById('input').value
-    console.log(letter)
 }
 
+function randomWord() {
+    let word = words[Math.floor(Math.random() * words.length)]
+        // return word
+    console.log(word)
+}
+
+randomWord()
+    // console.log(randomWord);
