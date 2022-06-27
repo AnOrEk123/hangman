@@ -1,31 +1,23 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scaleg=1.0">
-    <title>Hangman</title>
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-    <div id="wrapper" class="wrapper">
-        <h1 class="h1">Hangman</h1>
-        <div class="imgs">
-            <img src="img/1.png" alt="" class="img1">
-            <img src="img/2.png" alt="" class="img2">
-            <img src="img/3.png" alt="" class="img3">
-            <img src="img/4.png" alt="" class="img4">
-        </div>
-        <h2 class="words"></h2>
-        <div class="button">
-            <class="text_button"><input type="text"><button class="ok">ок</button></p>
-        </div>
+    <h1>HangMan</h1>
+
+
+    <div class="wrapper" id="wrapper">
+        <div class="hangImg" id="manImg"><img src="./img/1.png" alt="HangMan" id="hangImg"></div>
+        <div class="word" id="word"></div>
+        <div id="keyboard"></div>
     </div>
-
-
+    <div class="popup-container" id="popup-container">
+            <button id="play-button">Play Again</button>
+    </div>
     <script src="index.js"></script>
 </body>
-
 </html>
