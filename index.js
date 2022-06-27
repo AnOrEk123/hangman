@@ -15,5 +15,3 @@ function randomWord() {
     let word = words[Math.floor(Math.random() * words.length)]
     return word
 }
-
-console.log(randomWord())
