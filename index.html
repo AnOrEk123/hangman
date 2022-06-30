@@ -1,27 +1,21 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scaleg=1.0">
-    <title>Hangman</title>
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
-    <div id="wrapper" class="wrapper">
-        <h1 class="h1">Hangman</h1>
-        <div class="img" id="img">
-            <img src="img/1.png" alt="" width="200">
-        </div>
-        <div class="word" id="word">dsdsa</div>
-        <div class="inputDiv">
-            <input type="text" id="input" class="input">
-        </div>
-        <div class="button"><button id="button">ok</button></div>
+    <h1 class="h1">HangMan</h1>
+    <div id="game-container">  
+        <div class="manImg" id="manImg"><img src="./img/1.png" alt="HangMan" id="man"></div>
+            <div class="word" id="word"></div>
+        <div id="keyboard"></div>
+    </div>
+    <div>
+            <button id="play-button">Play Again</button>
     </div>
     <script src="index.js"></script>
 </body>
-
 </html>
